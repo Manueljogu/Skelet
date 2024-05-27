@@ -1,29 +1,27 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>Home</ion-title>
+    <ion-title>SkeletonAPP</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-  <h1>Bienvenido!</h1>
+  <h1 class="center-text large-text">Bienvenido!</h1>
+  <div class="user-info">Usuario: {{ user.username }}</div>
+  <div class="additional-info">Información Adicional</div>
   <ion-grid>
     <ion-row>
       <ion-col>
         <ion-item>
-          <ion-label position="stacked">Usuario</ion-label>
-          <ion-input [(ngModel)]="user.username" readonly></ion-input>
-        </ion-item>
-        <ion-item>
           <ion-label position="stacked">Nombre</ion-label>
-          <ion-input [(ngModel)]="user.firstName" #firstNameInput></ion-input>
+          <ion-input placeholder="Ingrese Nombre" [(ngModel)]="user.firstName"></ion-input>
         </ion-item>
         <ion-item>
           <ion-label position="stacked">Apellido</ion-label>
-          <ion-input [(ngModel)]="user.lastName" #lastNameInput></ion-input>
+          <ion-input placeholder="Ingrese Apellido" [(ngModel)]="user.lastName"></ion-input>
         </ion-item>
         <ion-item>
           <ion-label position="stacked">Nivel de Educación</ion-label>
-          <ion-select [(ngModel)]="user.educationLevel">
+          <ion-select placeholder="Seleccione Nivel" [(ngModel)]="user.educationLevel">
             <ion-select-option value="Primaria">Primaria</ion-select-option>
             <ion-select-option value="Secundaria">Secundaria</ion-select-option>
             <ion-select-option value="Universidad">Universidad</ion-select-option>
@@ -31,7 +29,7 @@
         </ion-item>
         <ion-item>
           <ion-label position="stacked">Fecha de Nacimiento</ion-label>
-          <input matInput [matDatepicker]="picker" [(ngModel)]="user.birthDate">
+          <input matInput [matDatepicker]="picker" placeholder="Fecha Nacimiento" [(ngModel)]="user.birthDate">
           <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
           <mat-datepicker #picker></mat-datepicker>
         </ion-item>
@@ -40,4 +38,5 @@
       </ion-col>
     </ion-row>
   </ion-grid>
+  <div class="footer">App desarrollada por</div>
 </ion-content>

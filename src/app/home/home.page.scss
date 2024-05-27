@@ -25,3 +25,51 @@
 #container a {
   text-decoration: none;
 }
+
+.center-text {
+  text-align: center;
+}
+
+.large-text {     /*la palabra bienvenido*/
+  font-size: 3em; 
+  margin-top: 80px; 
+}
+
+.app-title {    /*la palabra skeletonapp*/
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1em;
+  color: gray;
+}
+
+.additional-info {    /*la palabra informacion adicional*/
+  text-align: center;
+  font-size: 1.5em;
+  margin: 50px 0;
+  font-weight: bold;
+}
+
+.user-info {      /*la palabra usuario*/
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.footer {
+  text-align: left;
+  font-size: 1em;
+  color: black;
+  position: absolute;
+  bottom: 10px;
+  width: 80%;
+  font-weight: bold;
+  padding-left: 10px;
+}
+
