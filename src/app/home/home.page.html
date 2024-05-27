@@ -33,8 +33,14 @@
           <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
           <mat-datepicker #picker></mat-datepicker>
         </ion-item>
-        <ion-button expand="full" (click)="clearInputs()">Limpiar</ion-button>
-        <ion-button expand="full" (click)="showInfo()">Mostrar</ion-button>
+        <ion-row>
+          <ion-col>
+            <ion-button expand="full" (click)="clearInputs()">Limpiar</ion-button>
+          </ion-col>
+          <ion-col>
+            <ion-button expand="full" (click)="showInfo()">Mostrar</ion-button>
+          </ion-col>
+        </ion-row>
       </ion-col>
     </ion-row>
   </ion-grid>

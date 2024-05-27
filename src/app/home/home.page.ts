@@ -28,6 +28,9 @@ export class HomePage {
   clearInputs() {
     this.user.firstName = '';
     this.user.lastName = '';
+    this.user.educationLevel = '';
+    this.user.birthDate = '';
+    
 
     if (this.firstNameInput) {
       this.animateInput(this.firstNameInput);
