@@ -33,7 +33,11 @@
   padding-left: 10px;
 }
 
-.app-title a {
+.app-title a {   /*la palabra crea tu cuenta*/
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  font-size: 1em;
   text-decoration: none;
   color: #007bff; /* Color del enlace */
 }
