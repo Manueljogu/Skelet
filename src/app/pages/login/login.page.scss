@@ -29,10 +29,14 @@
   padding-left: 10px;
 }
 
-.app-title a {   /*la palabra crea tu cuenta*/
-  padding: 50px;
+.enlace {   /*la palabra crea tu cuenta*/
+  padding: 5px;
   font-size: 1em;
-  color: #007bff; /* Color del enlace */
+  color: #007bff; 
+}
+
+.button {
+  margin-top: 20px; 
 }
 /*
 ion-item {
