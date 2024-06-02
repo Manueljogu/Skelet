@@ -1,4 +1,4 @@
-<ion-header [translucent]="true">
+<ion-header collapse="condense">
   <ion-toolbar>
     <ion-title>SkeletonAPP</ion-title>
   </ion-toolbar>
@@ -32,11 +32,11 @@
           <ion-input type="date" [(ngModel)]="data.nacimiento"></ion-input>
         </ion-item>
         <ion-row>
-          <ion-col class="buttom">
-            <ion-button expand="full" (click)="clearInputs()">Limpiar</ion-button>
+          <ion-col class="button">
+            <ion-button expand="block" (click)="clearInputs()">Limpiar</ion-button>
           </ion-col>
-          <ion-col class="buttom">
-            <ion-button expand="full" (click)="showInfo()">Mostrar</ion-button>
+          <ion-col class="button">
+            <ion-button expand="block" (click)="showInfo()">Mostrar</ion-button>
           </ion-col>
         </ion-row>
       </ion-col>
