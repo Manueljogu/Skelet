@@ -27,15 +27,15 @@
             <ion-select-option value="Universidad">Universitaria</ion-select-option>
           </ion-select>
         </ion-item>
-        <ion-item class="ion-padding-horizontal">
+        <ion-item class="ion-text-left">
           <ion-label position="stacked" class="ion-padding-bottom">Fecha Nacimiento</ion-label>
           <ion-input type="date" [(ngModel)]="data.nacimiento"></ion-input>
         </ion-item>
         <ion-row>
-          <ion-col>
+          <ion-col class="buttom">
             <ion-button expand="full" (click)="clearInputs()">Limpiar</ion-button>
           </ion-col>
-          <ion-col>
+          <ion-col class="buttom">
             <ion-button expand="full" (click)="showInfo()">Mostrar</ion-button>
           </ion-col>
         </ion-row>
