@@ -1,13 +1,42 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>perfil</ion-title>
+    <ion-title class="ion-text-center">SkeletonAPP</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">perfil</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <h1 class="ion-text-center titulo">Perfil</h1>
+  <div id="container">
+    <ion-grid>
+      <ion-row>
+        <ion-col>
+          <ion-label><ion-text>Nombre:</ion-text></ion-label>
+          <ion-label><ion-text>{{NombreRecibido}}</ion-text></ion-label>
+
+          <ion-label><ion-text>Apellido:</ion-text></ion-label>
+          <ion-label><ion-text>{{apellidoRecibido}}</ion-text></ion-label>
+
+          <ion-label><ion-text>Email:</ion-text></ion-label>
+          <ion-label><ion-text>{{emailRecibido}}</ion-text></ion-label>
+
+          <ion-label><ion-text>Telefono:</ion-text></ion-label>
+          <ion-label><ion-text>{{telefonoRecibido}}</ion-text></ion-label>
+
+          <ion-label><ion-text>Genero:</ion-text></ion-label>
+          <ion-label><ion-text>{{generoRecibido}}</ion-text></ion-label>
+
+          <ion-label><ion-text>Direccion:</ion-text></ion-label>
+          <ion-label><ion-text>{{direccionRecibido}}</ion-text></ion-label>
+
+          <ion-label><ion-text>Ciudad:</ion-text></ion-label>
+          <ion-label><ion-text>{{ciudadRecibido}}</ion-text></ion-label>
+
+          <ion-label><ion-text>Pais:</ion-text></ion-label>
+          <ion-label><ion-text>{{paisRecibido}}</ion-text></ion-label>
+
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
 </ion-content>

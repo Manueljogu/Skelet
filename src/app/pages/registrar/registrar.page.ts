@@ -47,6 +47,7 @@ export class RegistrarPage implements OnInit {
     this.direccion  = "";
     this.ciudad     = "";
     this.pais       = "";
+    
    
   }
 
@@ -62,7 +63,7 @@ enviarDatos(){
       generoEnviado   : this.genero,
       direccionEnviado: this.direccion,
       ciudadEnviado   : this.ciudad,
-      paisEnviado     : this.pais,
+      paisEnviado     : this.pais
     }
   }
 
