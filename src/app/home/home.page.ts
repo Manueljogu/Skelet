@@ -51,6 +51,6 @@ export class HomePage {
   }
 
   showInfo() {
-    alert(`Nombre: ${this.user.firstName} Apellido: ${this.user.lastName} Educacion: ${this.user.educationLevel}`);
+    alert(`Nombre: ${this.user.firstName} Apellido: ${this.user.lastName}`);
   }
 }
