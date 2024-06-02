@@ -1,4 +1,4 @@
-<ion-header>
+<ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>SkeletonAPP</ion-title>
   </ion-toolbar>
@@ -27,11 +27,9 @@
             <ion-select-option value="Universidad">Universitaria</ion-select-option>
           </ion-select>
         </ion-item>
-        <ion-item>
-          <ion-label position="stacked">Fecha de Nacimiento</ion-label>
-          <input matInput [matDatepicker]="picker" placeholder="Fecha Nacimiento" [(ngModel)]="user.birthDate">
-          <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-          <mat-datepicker #picker></mat-datepicker>
+        <ion-item class="ion-padding-horizontal">
+          <ion-label position="stacked" class="ion-padding-bottom">Fecha Nacimiento</ion-label>
+          <ion-input type="date" [(ngModel)]="data.nacimiento"></ion-input>
         </ion-item>
         <ion-row>
           <ion-col>
