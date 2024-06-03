@@ -9,37 +9,48 @@
 
 <ion-content [fullscreen]="true">
   <h1 class="ion-text-center titulo">Perfil</h1>
+  <ion-icon name="person-circle-outline" class="icon-center"></ion-icon>
   <div id="container">
-    <ion-grid>
-      <ion-row>
-        <ion-col>
-          <ion-label><ion-text>Nombre:</ion-text></ion-label>
-          <ion-label><ion-text>{{NombreRecibido}}</ion-text></ion-label>
+    <ion-list>
+      <ion-item>
+        <ion-label>Nombre:</ion-label>
+        <ion-text>{{NombreRecibido}}</ion-text>
+      </ion-item>
 
-          <ion-label><ion-text>Apellido:</ion-text></ion-label>
-          <ion-label><ion-text>{{apellidoRecibido}}</ion-text></ion-label>
+      <ion-item>
+        <ion-label>Apellido:</ion-label>
+        <ion-text>{{apellidoRecibido}}</ion-text>
+      </ion-item>
 
-          <ion-label><ion-text>Email:</ion-text></ion-label>
-          <ion-label><ion-text>{{emailRecibido}}</ion-text></ion-label>
+      <ion-item>
+        <ion-label>Email:</ion-label>
+        <ion-text>{{emailRecibido}}</ion-text>
+      </ion-item>
 
-          <ion-label><ion-text>Telefono:</ion-text></ion-label>
-          <ion-label><ion-text>{{telefonoRecibido}}</ion-text></ion-label>
+      <ion-item>
+        <ion-label>Teléfono:</ion-label>
+        <ion-text>{{telefonoRecibido}}</ion-text>
+      </ion-item>
 
-          <ion-label><ion-text>Genero:</ion-text></ion-label>
-          <ion-label><ion-text>{{generoRecibido}}</ion-text></ion-label>
+      <ion-item>
+        <ion-label>Género:</ion-label>
+        <ion-text>{{generoRecibido}}</ion-text>
+      </ion-item>
 
-          <ion-label><ion-text>Direccion:</ion-text></ion-label>
-          <ion-label><ion-text>{{direccionRecibido}}</ion-text></ion-label>
+      <ion-item>
+        <ion-label>Dirección:</ion-label>
+        <ion-text>{{direccionRecibido}}</ion-text>
+      </ion-item>
 
-          <ion-label><ion-text>Ciudad:</ion-text></ion-label>
-          <ion-label><ion-text>{{ciudadRecibido}}</ion-text></ion-label>
+      <ion-item>
+        <ion-label>Ciudad:</ion-label>
+        <ion-text>{{ciudadRecibido}}</ion-text>
+      </ion-item>
 
-          <ion-label><ion-text>Pais:</ion-text></ion-label>
-          <ion-label><ion-text>{{paisRecibido}}</ion-text></ion-label>
-
-        </ion-col>
-      </ion-row>
-    </ion-grid>
+      <ion-item>
+        <ion-label>País:</ion-label>
+        <ion-text>{{paisRecibido}}</ion-text>
+      </ion-item>
+    </ion-list>
   </div>
-
 </ion-content>
