@@ -11,7 +11,7 @@ export class RegistrarPage implements OnInit {
   constructor(private router: Router) { }
 
 
-  edad = 20;
+  
   nombre    : string = "";
   apellido  : string = "";
   email     : string = "";
