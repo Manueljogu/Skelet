@@ -1,21 +1,29 @@
+.content-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+}
+
 .titulo {
-    text-align: center;
-    font-size: 1.8em;
-    margin: 50px 0;
-    font-weight: bold;
-  }
+  font-size: 5em;
+  margin: 3;
+  font-weight: bold;
+}
 
-  ion-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100%;
+.subtitulo {
+  font-size: 1em;
+  margin: 0;
+}
 
-  }
+.icon-center {
+  font-size: 5em;
+  margin: 20px 0;
+  color: blue;
+}
 
-  .icon-center {
-    font-size: 100px;
-    color: var(--ion-color-primary); 
-  }
+.home-button {
+  margin-top: 20px;
+}
